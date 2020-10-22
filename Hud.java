@@ -8,12 +8,14 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class Hud extends Actor
 {
+    private int score=0;
     /**
-     * Act - do whatever the Hud wants to do. This method is called whenever
+     * Act - do whatever the HUD wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
-    public void act() 
-    {
-        // Add your action code here.
-    }    
+    private static final GreenfootImage image = new GreenfootImage("images/score.png");
+    public Hud(){
+        setImage(image);
+    }
+    
 }

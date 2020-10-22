@@ -8,7 +8,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class Wall extends Actor
 {
-    private static final GreenfootImage image = new GreenfootImage("images/wall.png");
+    private static final GreenfootImage image = new GreenfootImage("images/blue.jpg");
     
     public Wall(){
         setImage(image);

@@ -12,5 +12,7 @@ public class SmallPoint extends Item
     
     public SmallPoint(){
         setImage(image);
+        
+        points = 1;
     }
 }

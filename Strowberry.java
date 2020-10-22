@@ -1,3 +1,4 @@
+import greenfoot.*;
 /**
  * Write a description of class Strowberry here.
  * 
@@ -6,5 +7,9 @@
  */
 public class Strowberry extends Fruit
 {
-
+     private static final GreenfootImage image = new GreenfootImage("images/strowberry.png");
+    
+    public Strowberry(){
+        setImage(image);
+    }
 }

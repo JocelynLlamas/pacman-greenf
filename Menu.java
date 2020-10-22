@@ -26,10 +26,10 @@ public class Menu extends World
      */
     private void prepare()
     {
-        StrowberryButton strowberryButton = new StrowberryButton();
-        addObject(strowberryButton,91,92);
-        strowberryButton.setLocation(264,175);
-        
-        showText("PACMAN", 200, 100);
+        PacmanMenu pacmanMenu = new PacmanMenu();
+        addObject(pacmanMenu,91,92);
+        pacmanMenu.setLocation(300,200);
+
+        showText("PACMAN", 300, 70);
     }
 }

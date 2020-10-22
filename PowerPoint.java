@@ -12,5 +12,7 @@ public class PowerPoint extends Item
     
     public PowerPoint(){
         setImage(image);
+        
+        points=5;
     }
 }
